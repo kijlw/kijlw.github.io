@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru" class="has-navbar-fixed-top">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title class="title">Types</title>
+</head>
+<body>
+<nav class="navbar has-background-link-dark is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" width="24" height="26">
+            <h1 class="title is-size-5 has-text-white-bis">Python frameworks</h1>
+        </a>
+        <a class="navbar-item has-text-white-bis" href="pythonframeworks.html">
+            Главная
+        </a>
+    </div>
+</nav>
+
+<div class="tile is-ancestor is-size-4">
+    <div class="tile is-vertical is-parent is-2 has-background-link-light">
+        <div class="tile is-child box has-background-info-light">
+            <aside class="menu">
+                <p class="menu-label">
+                    Страницы
+                </p>
+                <ul class="menu-list">
+                    <li><a href="pythonframeworks.html">Главная</a></li>
+                    <li><a href="about.html">Фреймворки Python</a></li>
+                    <li><a href="types.html">Типы фреймворков</a></li>
+                    <li><a href="10top.html">10 лучших фреймворков для веб-разработки на Python</a></li>
+                    <li><a href="videos.html">Видео</a></li>
+                    <li><a href="books.html">Литература</a></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+
+    <div class="tile is-parent">
+        <div class="tile is-child box  has-text-justified pb-1 is-size-4">
+            <section class="hero has-background-info-light">
+                <div class="hero-body">
+                   <h1 class="title is-white" id="up">Типы фреймворков.</h1>
+                    <p class="subtitle my-3">
+                        Классифицировать фреймворки для веб-приложений можно по двум основаниям: задачам, которые они
+                        решают, и размеру.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="title" id="backfront">Бэкенд и фронтенд фреймворки</h2>
+                <p>Каждое веб-приложение включает в себя интерфейсную часть (или фронтенд) и серверную (бэкенд). Это и
+                    определило два вида веб-фреймворков, доступных как для внешнего интерфейса, так и для «начинки»
+                    продукта.</p>
+            </section>
+
+            <section class="section">
+                <h3 class="title">Фронтенд фреймворки</h3>
+                <p>Эти фреймворки используются для разработки внешнего (пользовательского) интерфейса. Они чаще всего
+                    основаны на таких языках программирования, как JavaScript, HTML и CSS.</p>
+                <p>Среди решаемых задач — разработка дизайна UX/UI, SEO-оптимизация, фрагменты кода, шаблоны, управление
+                    взаимодействием с пользователем и многое другое. А среди самых известных фронтенд фреймворков —
+                    React, Vue.js, Ember, Bootstrap и Angular.</p>
+            </section>
+
+            <section class="section">
+                <h3 class="title">Бэкенд фреймворки</h3>
+                <p>Эти фреймворки используются для разработки серверной части, которая отвечает за функционирование
+                    ИТ-продукта. Они основаны на таких языках программирования, как Python, .NET, Ruby, Java и PHP.</p>
+                <p>Среди решаемых задач — функционирование сервера и базы данных, протоколы маршрутизации, логика и
+                    архитектура сервиса, параметры авторизации, безопасность и многие другие. Среди наиболее популярных
+                    фреймворков — Django, Laravel, Ruby On Rails, Spring, Express, ASP.NET Core.</p>
+                <div class="container is-fluid py-5">
+                    <div class="notification has-background-info-light">
+                        <p><strong>Важно:</strong> бэкэнд-фреймворки отлично подходят для создания простой интернет-
+                            страницы, формы ее могут быть различны. Также платформы прекрасно справляются с задачей
+                            формирования выходных данных и гарантируют безопасность ресурса, если возникнет хакерская
+                            атака.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h3 class="title pb-3">Краткий итог:</h3>
+                <table class="table is-bordered is-hoverable has-background-link-light ">
+                    <thead>
+                    <tr>
+                        <th><strong>Фреймворки для фронтенда</strong></th>
+                        <th><strong>Фреймворки для бэкенда</strong></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Работа с интерфейсом, с которым взаимодействует конечный пользователь ИТ-продукта</td>
+                        <td>Отвечает за функционирование ИТ-решения — все, что “под капотом”</td>
+                    </tr>
+                    <tr>
+                        <td>Ключевые функции: работа с повторно используемыми шаблонами, разработка UI/UX-интерфейса,
+                            оптимизация SEO, повышение производительности и масштабируемости веб-сайта</td>
+                        <td>Ключевые функции: обработка сервера, проектирование архитектуры сайта, управление базами
+                            данных, безопасность и маршрутизация URL-адресов</td>
+                    </tr>
+                    <tr>
+                        <td>Используемые языки: HTML, CSS, JavaScript, TypeScript и другие</td>
+                        <td>Python, JavaScript, PHP, Ruby, TypeScript, Go. и прочие — вот несколько из применяемых языков</td>
+                    </tr>
+                    <tr>
+                        <td>React, Vue.js, Ember, Bootstrap и Angular в числе наиболее популярных frontend-фреймворков</td>
+                        <td>Django, Laravel, Ruby On Rails, Spring, Express, ASP.NET Core — самые популярные backend-фреймворки</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="section">
+                <h2 class="title" id="fullstack">Фулстек-фреймворки</h2>
+                <p>Несут ответственность не только за серверные, но и за клиентские функции. В качестве примера здесь
+                    можно привести Meteor, который базируется на JavaScript, что позволяет разработчику использовать
+                    один и тот же код.</p>
+                <div class="container is-fluid py-5">
+                    <div class="notification has-background-info-light">
+                        <p>Особенность фулстек-фреймворков: все они проводятся в режиме реального времени. Ее суть
+                            заключается в том, что если вносятся изменения в один интерфейс, то они будут отображаться
+                            и на остальных.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="title" id="micro">Фреймворки и микрофреймворки</h2>
+                <p>Фреймворки по своему объему классифицируются на:</p>
+                <ul>
+                    <li>Микрофреймворки. Они призваны решать узкие задачи. Чтобы создать проект на их базе, необходимо
+                        привлечь дополнительные приложения, позволяющие разработать небольшой ресурс. Обычно специалисты
+                        совмещаются в работе микрофреймворки и большие фреймворки.</li>
+                    <li>Большие фреймворки используются, когда нужно задействовать большое количество функций для
+                        решения всех поставленных задач.</li>
+                </ul>
+            </section>
+
+            <div class="buttons has-addons is-centered">
+                <button class="button is-success is-inverted"><a href="#up">↑ Вернуться наверх</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="tile is-2 is-parent has-background-link-light">
+        <div class="tile is-child box has-background-info-light">
+            <aside class="menu">
+                <p class="menu-label">
+                    Содержание
+                </p>
+                <ul class="menu-list">
+                    <li><a href="#backfront">Бэкенд и фронтенд фреймворки</a></li>
+                    <li><a href="#fullstack">Фулстек-фреймворки</a></li>
+                    <li><a href="#micro">Фреймворки и микрофреймворки</a></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<footer class="footer has-background-link-dark has-text-white">
+    <div class="content has-text-centered">
+        <p class="is-size-5">
+            Python Frameworks. 2023
+        </p>
+    </div>
+    <div class="columns">
+        <div class="column is-three-fifths is-offset-one-fifth">
+            <p class="is-size-5 pb-3">Источники:</p>
+            <p class="is-size-6"><a class="has-text-white" href="https://elbrusboot.camp/blog/frieimvorki-python/">elbrusboot.camp</a></p>
+            <p class="is-size-6"><a class="has-text-white" href="https://tproger.ru/articles/10-luchshih-frejmvorkov-dlja-veb-razrabotki-na-python">tproger.ru</a></p>
+            <p class="is-size-6"><a class="has-text-white" href="https://gb.ru/blog/frejmvork/">gb.ru</a></p>
+            <p class="is-size-6"><a class="has-text-white" href="https://omni.korusconsulting.ru/blog/chto-takoe-freymvork-i-kak-vybrat-podkhodyashchiy-dlya-frontenda-i-bekenda/">omni.korusconsulting.ru</a></p>
+        </div>
+    </div>
+</footer>
+</html>
