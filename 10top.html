@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top" lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title class="title">Top Frameworks</title>
+</head>
+<body>
+<nav class="navbar has-background-link-dark is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" width="24" height="26">
+            <h1 class="title is-size-5 has-text-white-bis">Python frameworks</h1>
+        </a>
+        <a class="navbar-item has-text-white-bis" href="pythonframeworks.html">
+            Главная
+        </a>
+    </div>
+</nav>
+
+<div class="tile is-ancestor is-size-4">
+    <div class="tile is-vertical is-parent is-2 has-background-link-light">
+        <div class="tile is-child box has-background-info-light">
+            <aside class="menu">
+                <p class="menu-label">
+                    Страницы
+                </p>
+                <ul class="menu-list">
+                    <li><a href="pythonframeworks.html">Главная</a></li>
+                    <li><a href="about.html">Фреймворки Python</a></li>
+                    <li><a href="types.html">Типы фреймворков</a></li>
+                    <li><a href="10top.html">10 лучших фреймворков для веб-разработки на Python</a></li>
+                    <li><a href="videos.html">Видео</a></li>
+                    <li><a href="books.html">Литература</a></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+
+    <div class="tile is-parent">
+        <div class="tile is-child box has-text-justified is-size-4">
+            <section class="hero has-background-info-light">
+                <div class="hero-body">
+                    <h1 class="title is-white" id="up">10 лучших фреймворков для веб-разработки на Python.</h1>
+                    <p class="subtitle my-3">
+                        Существует огромное количество фреймворков для веб-разработки на Python. Здесь мы собрали самые популярные и востребованные фреймворки на 2022 год, но у каждого из них свои плюсы и минусы. Выбор конкретного решения зависит от стоящих перед разработчиком задач и личных предпочтений. Необходимо каждый раз оценивать выбираемый фреймворк на соответствие требованиям конкретной задачи.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="title" id="first">Django</h2>
+                <figure class="image">
+                    <img src="https://media.tproger.ru/uploads/2022/04/C18BCD26-7CD4-4D4D-BEDE-5AD31222858E.jpeg">
+                </figure>
+                <p> <a href="https://www.djangoproject.com/">Django</a> — это фреймворк с открытым исходным кодом,
+                    который позволяет разработчикам создавать веб-приложения практически любого уровня. Он входит в
+                    число лучших фреймворков Python и заслуженно пользуется популярностью.</p>
+                <p>Для Django доступен колоссальный набор дополнительных библиотек и поддержка огромного сообщества
+                    разработчиков, что существенно упрощает и ускоряет разработку.</p>
+                <div class="container is-widescreen my-3">
+                    <div class="notification is-grey-lighter ">
+                        <p><strong>Ключевые особенности Django:</strong></p>
+                        <ol>
+                            <li>наличие собственного ORM (от англ. Object-Relational Mapping, «объектно- реляционное отображение»);</li>
+                            <li>встроенный административный интерфейс (простым языком — админка);</li>
+                            <li>шаблонизатор;</li>
+                            <li>библиотека работы с формами;</li>
+                            <li>система кэширования и интернализации;</li>
+                            <li>система авторизации и аутентификации.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="title" id="second">CherryPy</h2>
+                <figure class="image">
+                    <img src="https://media.tproger.ru/uploads/2022/04/397AFC61-CE31-4F11-A3AB-6DCBADB081E7.jpeg">
+                </figure>
+                <p>Фреймворк <a href="https://cherrypy.dev/">CherryPy</a>, которому уже более десяти лет, зарекомендовал
+                    себя как исключительно быстрый и стабильный продукт. Одна из изначальных целей основателя проекта
+                    Реми Делона — сделать CherryPy максимально соответствующим принципу «pythonic style». Это позволило
+                    разработчикам использовать этот фреймворк как обычный модуль Python и не думать об особенностях веб-
+                    программирования. Они могут создавать веб-приложения практически так же, как создают любую другую
+                    объектно-ориентированную программу на Python.</p>
+                <p>CherryPy может выступать в качестве самостоятельного веб-сервера или работать под управлением другого
+                    серверного приложения.</p>
+                <div class="container is-widescreen  my-3">
+                    <div class="notification grey-lighter">
+                        <p><strong>Ключевые особенности CherryPy:</strong></p>
+                        <ol>
+                            <li>надёжный многопоточный веб-сервер, соответствующий стандарту HTTP/1.1.;</li>
+                            <li>возможность запускать различные HTTP-серверы (например, на нескольких портах) одновременно;</li>
+                            <li>встроенные инструменты работы с сессиями, кэшированием, аутентификацией, статическим контентом;</li>
+                            <li>мощная система конфигурирования;</li>
+                            <li>встроенная поддержка профилирования и тестирования;</li>
+                            <li>поддержка Python 2.7+, 3.5+, PyPy, Jython.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="title" id="third">Pyramid</h2>
+                <figure class="image">
+                    <img src="https://media.tproger.ru/uploads/2022/04/7089440E-AC35-47FD-85BC-86871DF42722.jpeg">
+                </figure>
+                <p>Набирающий популярность фреймворк <a href="https://trypyramid.com/">Pyramid </a>универсален. Его
+                    можно использовать для проектов любого уровня сложности. Он заслужил высокие оценки в среде Python-
+                    разработчиков благодаря своей прозрачности и проверенной временем надёжности. Его используют такие
+                    технологические гиганты, как Mozilla, Yelp, Dropbox и SurveyMonkey.</p>
+                <p>Мегафреймворки, как правило, принимают решения за разработчика в вопросах архитектуры приложения
+                    или выбора тех или иных компонентов, например ORM. Но если ваши потребности не соответствуют их
+                    точке зрения, вы в конечном итоге будете бороться с их выбором.</p>
+                <p>Микрофреймворки, напротив, не навязывают никаких решений, что в ряде случаев играет вам на руку.
+                    Однако когда ваше приложение разрастается и ему требуются новые компоненты, то в вопросе выбора
+                    вы оказываетесь предоставлены сами себе.</p>
+                <p>В обоих случаях основное внимание уделяется началу работы над проектом: либо всего слишком много,
+                    либо слишком мало. Pyramid — это золотая середина. Этот фреймворк в самом начале работы над проектом
+                    может быть микрофреймворком, а по мере роста даст всё необходимое на каждом этапе, чтобы довести
+                    проект до успешного завершения.</p>
+                <div class="container is-widescreen  my-3">
+                    <div class="notification grey-lighter">
+                        <p><strong>Ключевые особенности Pyramid:</strong></p>
+                        <ol>
+                            <li>возможность написать приложение в одном файле;</li>
+                            <li>обслуживание запросов на статические файлы;</li>
+                            <li>панель инструментов для отладки приложения прямо в браузере;</li>
+                            <li>расширяемые взаимозаменяемые шаблоны (template);</li>
+                            <li>встроенная интернационализация;</li>
+                            <li>кэширование HTTP; встроенная поддержка сессий;</li>
+                            <li>управление транзакциями, в том числе при работе сразу с несколькими базами данных;</li>
+                            <li>гибкая расширяемая аутентификация и авторизация;</li>
+                            <li>автоматизация повторяющейся конфигурации.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="title" id="fourth">TurboGears</h2>
+                <figure class="image">
+                    <img src="https://media.tproger.ru/uploads/2022/04/7AF61D81-262E-470D-AAF4-DC57510C3B54.jpeg">
+                </figure>
+                <p><a href="https://www.turbogears.org/">TurboGears</a> — это ещё один веб-фреймворк для разработки
+                    веб-приложений, написанный на языке Python. Во время его создания вдохновение черпалось из опыта
+                    использования Django и Rails. Эти фреймворки имеют ряд ограничений и недостатков, а TurboGears
+                    попытался решить эти проблемы.</p>
+                <p>Основное отличие этого фреймворка от того же Django — не изобретение велосипеда в виде собственной
+                    ORM, а использование в качестве основных компонент стандартных и популярных библиотек, таких как
+                    Pylons, SQLAlchemy, Genshi и Repoze.</p>
+                <p>Среди организаций, которые использовали TurboGears, — Bisque, ShowMeDo и SourceForge.</p>
+                <div class="container is-widescreen  my-3">
+                    <div class="notification grey-lighter">
+                        <p><strong>Ключевые особенности TurboGears:</strong></p>
+                        <ol>
+                            <li>поддержка множества баз данных;</li>
+                            <li>поддержка различных JavaScript-библиотек;</li>
+                            <li>поддержка множества форматов обмена данными;</li>
+                            <li>поддержка горизонтального масштабирования данных по примеру шардинга;</li>
+                            <li>возможность расширения средствами стандартных WSGI-компонент.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="title" id="fifth">Web2Py</h2>
+                <figure class="image">
+                    <img src="https://media.tproger.ru/uploads/2022/04/0B17F32F-B7DA-439C-A336-FCE0998E90D8.jpeg">
+                </figure>
+                <p>Фреймворк <a href="http://www.web2py.com/">Web2py</a>изначально задумывался как учебный инструмент с
+                    акцентом на юзабилити и простоте начала использования. Например, в нём отсутствуют файлы
+                    конфигурации проекта. Сама же архитектура фреймворка разработана по аналогии с такими решениями,
+                    как Ruby on Rails и Django.</p>
+                <p>Весь процесс разработки, отладки, тестирования, а также администрирование удалённой базы данных можно
+                    организовать без каких-либо сторонних инструментов через собственный веб-интерфейс, который в свою
+                    очередь тоже является web2py-приложением.</p>
+                <p>Кроме того, каждое приложение обеспечено автоматически сгенерированным интерфейсом администрирования
+                    по типу Django.</p>
+                <div class="container is-widescreen  my-3">
+                    <div class="notification grey-lighter">
+                        <p><strong>Ключевые особенности Web2Py:</strong></p>
+                        <ol>
+                            <li>интегрированная веб-среда разработки;</li>
+                            <li>встроенные компоненты для всех основных функций;</li>
+                            <li>механизмы аутентификации и контроля доступа по ролям;</li>
+                            <li>поддержка jQuery для Ajax- и UI-эффектов;</li>
+                            <li>поддержка интернационализации;</li>
+                            <li>автоматическое журналирование ошибок вместе с контекстом.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="title" id="sixth">Flask</h2>
+                <figure class="image">
+                    <img src="https://media.tproger.ru/uploads/2022/04/5025AF56-66E4-4EF3-B84C-DFDFDEC1CBC8.jpeg">
+                </figure>
+                <p>У фреймворка <a href="https://flask.palletsprojects.com/en/2.1.x/">Flask</a>небольшой размер исходной
+                    кодовой базы, поэтому его называют микрофреймворком. Но это не значит, что у него меньше
+                    возможностей, чем у того же Django. По умолчанию он включает в себя только обработчик запросов и
+                    шаблонизатор, а простейшее приложение на Flask может состоять всего из нескольких строк.
+                    Разработчики этого фреймворка осознанно хотели сохранить ядро простым, но расширяемым.</p>
+                <p>Тем не менее с помощью Flask можно реализовать практически любую задачу: от простого одностраничного
+                    сайта до серьёзного проекта с авторизацией, аутентификацией и другими возможностями. Flask подходит
+                    для задач, которые подразумевают гибкость в выборе компонентов. Разработчик сам принимает решение,
+                    что ему пригодится в работе.</p>
+                <p>Flask лежит в основе таких крупных сервисов? как Reddit, Netflix, Pinterest, Twilio и агрегатора
+                    такси Lyft.</p>
+                <div class="container is-widescreen  my-3">
+                    <div class="notification grey-lighter">
+                        <p><strong>Ключевые особенности Flask:</strong></p>
+                        <ol>
+                            <li>встроенный сервер разработки и отладчик;</li>
+                            <li>диспетчеризация запросов в RESTful-стиле;</li>
+                            <li>встроенная поддержка модульного тестирования;</li>
+                            <li>использование шаблонизатора Jinja2;</li>
+                            <li>100%-ная совместимость с WSGI 1.0;</li>
+                            <li>множество расширений, предоставляемых сообществом.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="title" id="seventh">Bottle</h2>
+                <figure class="image">
+                    <img src="https://media.tproger.ru/uploads/2022/04/34C7AB68-B959-480F-A93F-080D5C14BC72.jpeg">
+                </figure>
+                <p><a href="https://bottlepy.org/docs/dev/">Bottle</a> — это ещё один простой и лёгкий микрофреймворк.
+                    Он распространяется в виде однофайлового модуля, и у него нет никаких зависимостей, кроме
+                    стандартной библиотеки Python. Изначально он разрабатывался исключительно для создания
+                    веб-интерфейсов API.</p>
+                <p>Функциональные возможности «из коробки» включают встроенный веб-сервер, шаблонизацию, роутинг
+                    запросов, а также собственные инструменты и утилиты. Bottle позволяет создавать простые
+                    приложения для личного пользования. А ещё это подходящий пример для изучения фреймворков,
+                    а также для быстрого создания прототипов. Например, компания Netflix использовала Bottle для
+                    создания своих веб-интерфейсов.</p>
+                <div class="container is-widescreen my-3">
+                    <div class="notification grey-lighter">
+                        <p><strong>Ключевые особенности Bottle:</strong></p>
+                        <ol>
+                            <li>быстрый встроенный шаблонизатор в pythonic-стиле;</li>
+                            <li>встроенный веб-сервер разработки;</li>
+                            <li>простой механизм маршрутизации запросов к функциям с поддержкой как статических,
+                                так и динамических адресов;</li>
+                            <li>лёгкий доступ к cookies, загрузке файлов, заголовкам запросов и другим метаданным.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="title" id="eighth">Tornado</h2>
+                <figure class="image">
+                    <img src="https://media.tproger.ru/uploads/2022/04/A1763CC0-EF01-46EA-8628-4FD91AECABD8.jpeg">
+                </figure>
+                <p><a href="https://www.tornadoweb.org/en/stable/">Tornado</a> — это расширяемый асинхронный веб-сервер
+                    и фреймворк, который решает проблему C10k. То есть при правильной настройке он может работать с
+                    10 000+ одновременных соединений. Это делает его отличным инструментом для создания приложений,
+                    требующих суперпроизводительности при работе с операциями ввода/вывода и поддержки огромного
+                    количества одновременных соединений.</p>
+                <p>Изначально фреймворк был создан для использования в проекте FriendFeed, который в 2009 году
+                    приобрела компания Facebook, после чего исходные коды Tornado были открыты.</p>
+                <div class="container is-widescreen my-3">
+                    <div class="notification grey-lighter">
+                        <p><strong>Ключевые особенности Tornado:</strong></p>
+                        <ol>
+                            <li>асинхронный режим работы;</li>
+                            <li>использование веб-сокетов;</li>
+                            <li>поддержка схем аутентификации и авторизации сторонних производителей.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="title" id="ninth">web.py</h2>
+                <figure class="image">
+                    <img src="https://media.tproger.ru/uploads/2022/04/72A8B51E-E559-4973-89E0-C61F07C7668F.jpeg">
+                </figure>
+                <p><a href="https://webpy.org/">Web.py</a> — это минималистский фреймворк, который нацелен на реализацию
+                    простых веб-приложений на языке Python. Те разработчики, которые считают, что новые веб-сайты должны
+                    создаваться с нуля, будут очарованы этим быстрым и лёгким фреймворком. Web.py обеспечивает простоту
+                    и эффективность процесса разработки без использования заготовок архитектуры.</p>
+                <p>Web.py делает процесс веб-разработки максимально непредвзятым и не встаёт на пути идей разработчиков.
+                    Причина упрощения процесса разработки в том, что бывают случаи, когда нет необходимости использовать
+                    паттерн проектирования MVC или создавать беспорядок из HTML, CSS, JavaScript и PHP в одном файле.</p>
+                <div class="container is-widescreen my-3">
+                    <div class="notification grey-lighter">
+                        <p><strong>Ключевые особенности web.py:</strong></p>
+                        <ol>
+                            <li>встроенный веб-сервер разработки;</li>
+                            <li>встроенный отладчик;</li>
+                            <li>встроенный шаблонизатор;</li>
+                            <li>встроенный пакет работы с базами данных;</li>
+                            <li>пакет работы с формами;</li>
+                            <li>совместимость с WSGI.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="title" id="tenth">FastAPI</h2>
+                <figure class="image">
+                    <img src="https://media.tproger.ru/uploads/2022/04/771C1764-1183-47DC-9348-538CD7125644.jpeg">
+                </figure>
+                <p><a href="https://fastapi.tiangolo.com/">FastAPI</a> — это асинхронный веб-фреймворк, который появился
+                    на свет в конце 2018 года. Он предназначен для быстрой разработки API-приложений и основан на
+                    использовании стандартной аннотации типов Python.</p>
+                <p>Слово «fast» в названии указывает не только на быструю разработку приложения, но и на
+                    производительность фреймворка. Как утверждает документация, согласно результатам независимых тестов,
+                    FastAPI по скорости не уступает приложениям, написанным на NodeJS или Go, а также это один из самых
+                    быстрых фреймворков на Python.</p>
+                <p>FastAPI сразу строился как асинхронный фреймворк, в отличие от имеющих долгую историю Django и Flask,
+                    которые изначально были синхронными и лишь в последние годы начали внедрять асинхронность.</p>
+                <p>FastAPI обычно применяется для разработки API, без фронтенда, но при желании его можно дополнить
+                    стандартными шаблонами на основе шаблонизатора, например Jinja2, который применяется во Flask.</p>
+                <div class="container is-widescreen my-3">
+                    <div class="notification grey-lighter">
+                        <p><strong>Ключевые особенности FastAPI:</strong></p>
+                        <ol>
+                            <li>очень высокая производительность, наравне с NodeJS и Go;</li>
+                            <li>встроенная документация на основе Swagger;</li>
+                            <li>использование веб-сокетов;</li>
+                            <li>лёгкая интеграция с базами данных;</li>
+                            <li>основан на стандартах OpenAPI и полностью совместим с ними.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <div class="buttons has-addons is-centered">
+                <button class="button is-success is-inverted"><a href="#up">↑ Вернуться наверх</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="tile is-2 is-parent has-background-link-light">
+        <div class="tile is-child box has-background-info-light">
+            <aside class="menu">
+                <p class="menu-label">
+                    Содержание
+                </p>
+                <ul class="menu-list">
+                    <li><a href="#first">Django</a></li>
+                    <li><a href="#second">CherryPy</a></li>
+                    <li><a href="#third">Pyramid</a></li>
+                    <li><a href="#fourth">TurboGears</a></li>
+                    <li><a href="#fifth">Web2Py</a></li>
+                    <li><a href="#sixth">Flask</a></li>
+                    <li><a href="#seventh">Bottle</a></li>
+                    <li><a href="#eighth">Tornado</a></li>
+                    <li><a href="#ninth">web.py</a></li>
+                    <li><a href="#tenth">FastAPI</a></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<footer class="footer has-background-link-dark has-text-white">
+    <div class="content has-text-centered">
+        <p class="is-size-5">
+            Python Frameworks. 2023
+        </p>
+    </div>
+    <div class="columns">
+        <div class="column is-three-fifths is-offset-one-fifth">
+            <p class="is-size-5 pb-3">Источники:</p>
+            <p class="is-size-6"><a class="has-text-white" href="https://elbrusboot.camp/blog/frieimvorki-python/">elbrusboot.camp</a></p>
+            <p class="is-size-6"><a class="has-text-white" href="https://tproger.ru/articles/10-luchshih-frejmvorkov-dlja-veb-razrabotki-na-python">tproger.ru</a></p>
+            <p class="is-size-6"><a class="has-text-white" href="https://gb.ru/blog/frejmvork/">gb.ru</a></p>
+            <p class="is-size-6"><a class="has-text-white" href="https://omni.korusconsulting.ru/blog/chto-takoe-freymvork-i-kak-vybrat-podkhodyashchiy-dlya-frontenda-i-bekenda/">omni.korusconsulting.ru</a></p>
+        </div>
+    </div>
+</footer>
+</html>
